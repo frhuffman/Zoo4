@@ -1,0 +1,23 @@
+body {
+    background-color: #e8f5e9;
+    color: #1b3a1b;
+}
+
+h1, h2, h3 {
+    color: #2e7d32;
+}
+
+button {
+    background-color: #66bb6a;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #388e3c;
+}
+
+a {
+    color: #1565c0;
+}

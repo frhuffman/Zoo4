@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTC Zoo Animals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Our Animals</h1>
+
+    <ul>
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+    </ul>
+
+    <button id="elephantButton">Elephant</button>
+
+    <br>
+
+    <button id="tigerButton">Tiger</button>
+
+    <br>
+
+    <button id="pandaButton">Panda</button>
+
+    <br>
+
+    <button id="lionButton">Lion</button>
+
+    <br>
+
+    <button id="otterButton">Otter</button>
+
+    <br>
+
+    <h2 id="animalName"></h2>
+
+    <img id="animalImage" src="" alt="" width="300">
+
+    <h3 id="aboutHeading">About This Animal</h3>
+
+    <p id="animalAge"></p>
+    <p id="animalWeight"></p>
+    <p id="animalDescription"></p>
+
+    <h3 id="factHeading">Did You Know?</h3>
+
+    <p id="animalFact"></p>
+
+    <section id="endangeredSpecies">
+        <h2>Our Endangered Species</h2>
+
+        <div>
+            <h3>Red Panda</h3>
+            <img src="red_panda.jpg" alt="Red panda sitting in a tree" width="250">
+            <p>
+                Red pandas are small mammals that live in the forests of the Himalayas.
+                Their populations are threatened by habitat loss and other human activities.
+            </p>
+            <button id="redPandaButton" aria-expanded="false">
+                Learn More
+            </button>
+            <div id="redPandaInfo" hidden>
+                <p><strong>Scientific Name:</strong> Ailurus fulgens</p>
+                <p><strong>Average Weight:</strong> 6.5–14 pounds</p>
+                <p><strong>Length:</strong> 20–25 inches</p>
+                <p><strong>Endangerment Status:</strong> Endangered</p>
+                <p><strong>Estimated Population:</strong> Fewer than 10,000 mature individuals</p>
+            </div>
+        </div>
+
+        <div>
+            <h3>Rhinoceros</h3>
+            <img src="rhino.jpg" alt="Rhinoceros standing in grass" width="250">
+            <p>
+                Rhinoceroses are large mammals found in parts of Africa and Asia.
+                Several rhino species are threatened by habitat loss and poaching.
+            </p>
+            <button id="rhinoButton" aria-expanded="false">
+                Learn More
+            </button>
+            <div id="rhinoInfo" hidden>
+                <p><strong>Scientific Name:</strong> Diceros bicornis</p>
+                <p><strong>Average Weight:</strong> 1,760–3,090 pounds</p>
+                <p><strong>Length:</strong> 11–13 feet</p>
+                <p><strong>Endangerment Status:</strong> Critically Endangered</p>
+                <p><strong>Estimated Population:</strong> Approximately 6,000 individuals</p>
+            </div>
+        </div>
+
+        <div>
+            <h3>Saola</h3>
+            <img src="saola.jpg" alt="Saola standing in a forest" width="250">
+            <p>
+                The saola is a rare mammal found in the forests of Vietnam and Laos.
+                It is threatened by habitat loss and hunting.
+            </p>
+            <button id="saolaButton" aria-expanded="false">
+                Learn More
+            </button>
+            <div id="saolaInfo" hidden>
+                <p><strong>Scientific Name:</strong> Pseudoryx nghetinhensis</p>
+                <p><strong>Average Weight:</strong> 176–220 pounds</p>
+                <p><strong>Length:</strong> About 5 feet</p>
+                <p><strong>Endangerment Status:</strong> Critically Endangered</p>
+                <p><strong>Estimated Population:</strong> Fewer than 100</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="zoo.js"></script>
+</body>
+</html>
